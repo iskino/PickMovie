@@ -1,8 +1,8 @@
 <resources>
     <string name="app_title">Pick Movie</string>
-    <string name="movies_list_title">Movies List</string>
-    <string name="movie_details_title">Movie Details</string>
-    <string name="share_to_friend_title">Share To Friend</string>
+    <string name="movies_list_title">Интересные фильмы</string>
+    <string name="movie_details_title">Описание</string>
+    <string name="share_to_friend_title">Поделиться с другом</string>
     <string name="thor_movie">Тор: Любовь и гром (2022)</string>
     <string name="youngman_movie">Молодой человек (2022)</string>
     <string name="minions_movie">Миньоны: Грювитация (2022)</string>
