@@ -5,7 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable/checked_favourite_icon.xml" value="0.354" />
         <entry key="app/src/main/res/drawable/not_checked_favourite_icon.xml" value="0.176" />
+        <entry key="app/src/main/res/layout/activity_movie_details.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_movies_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_share_to_friend.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.354" />
       </map>
     </option>
