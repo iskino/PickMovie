@@ -20,6 +20,7 @@
             android:visibility="visible"
             android:src="@drawable/thor"/>
         <TextView
+            android:id="@+id/frr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawablePadding="16dp"
@@ -50,10 +51,10 @@
                 android:layout_height="wrap_content"
                 android:drawablePadding="8dp"
                 android:paddingHorizontal="2dp"
-                android:textSize="18dp"
+                android:textSize="15dp"
                 android:visibility="visible"
-                android:textColor="@color/light_grey"
-                android:text="комментарии"/>
+                android:textColor="@color/grey"
+                android:text="Нет комментариев"/>
             <ImageView
                 android:id="@+id/thorFavourite"
                 android:layout_width="wrap_content"
