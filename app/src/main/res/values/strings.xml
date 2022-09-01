@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pick Movie</string>
+    <string name="movie_details_name">Movie Details</string>
+    <string name="thor_movie">Тор: Любовь и гром (2022)</string>
+    <string name="youngman_movie">Молодой человек (2022)</string>
+    <string name="minions_movie">Миньоны: Грювитация (2022)</string>
+    <string name="doctor_strange_movie">Доктор Стрэндж: В мульти- вселенной безумия (2022)</string>
+    <string name="paws_of_fury_movie">Пес-самурай и город кошек (2022)</string>
+</resources>
