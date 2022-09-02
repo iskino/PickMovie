@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clipToPadding="false"
@@ -34,6 +35,7 @@
             android:paddingBottom="20dp"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/thorDetailsView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/movie_review_icon"
@@ -43,14 +45,17 @@
                 android:visibility="visible"
                 android:text="Детали  \u00B7 "/>
             <TextView
+                android:id="@+id/thorCommentView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawablePadding="8dp"
                 android:paddingHorizontal="2dp"
                 android:textSize="18dp"
                 android:visibility="visible"
-                android:text="комментарий"/>
+                android:textColor="@color/light_grey"
+                android:text="комментарии"/>
             <ImageView
+                android:id="@+id/thorFavourite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -59,6 +64,7 @@
                 android:visibility="visible"
                 android:src="@drawable/not_checked_favourite_icon"/>
             <ImageView
+                android:id="@+id/thorShare"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:adjustViewBounds="true"
@@ -94,6 +100,7 @@
             android:paddingBottom="20dp"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/youngmanDetailsView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/movie_review_icon"
@@ -111,6 +118,7 @@
                 android:visibility="visible"
                 android:text="комментарий"/>
             <ImageView
+                android:id="@+id/youngmanFavourite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -155,6 +163,7 @@
             android:paddingBottom="20dp"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/minionsDetailsView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/movie_review_icon"
@@ -216,6 +225,7 @@
             android:paddingBottom="20dp"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/doctorStrangeDetailsView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/movie_review_icon"
@@ -277,6 +287,7 @@
             android:paddingBottom="20dp"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/pawsOfFuryDetailsView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/movie_review_icon"
