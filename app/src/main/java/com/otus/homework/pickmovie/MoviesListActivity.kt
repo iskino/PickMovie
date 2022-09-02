@@ -51,7 +51,7 @@ class MoviesListActivity : AppCompatActivity() {
             favouriteStar.setImageResource(R.drawable.checked_favourite_icon)
         }
 
-        findViewById<TextView>(R.id.thorShare).setOnClickListener {
+        findViewById<ImageView>(R.id.thorShare).setOnClickListener {
             startActivity(Intent(this, ShareToFriendActivity::class.java))
         }
 
