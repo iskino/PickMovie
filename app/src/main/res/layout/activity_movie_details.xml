@@ -9,7 +9,7 @@
     tools:context=".MovieDetailsActivity">
 
     <TextView
-        android:id="@+id/movieDescription"
+        android:id="@+id/movieName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -23,6 +23,20 @@
         app:layout_constraintVertical_bias="0.024" />
 
     <TextView
+        android:id="@+id/movieDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:lines="10"
+        android:text="@string/movie_description"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
         android:id="@+id/commentStaticText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,20 +47,20 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/movieDescription"
-        app:layout_constraintVertical_bias="0.017" />
+        app:layout_constraintVertical_bias="0.031" />
 
     <EditText
-        android:id="@+id/commentView"
+        android:id="@+id/movieComment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="14"
+        android:lines="7"
         android:text=""
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/commentStaticText"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonOk"
@@ -57,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/commentView"
+        app:layout_constraintTop_toBottomOf="@+id/movieComment"
         app:layout_constraintVertical_bias="0.87" />
 
 

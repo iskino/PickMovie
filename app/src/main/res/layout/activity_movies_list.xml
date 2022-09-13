@@ -17,10 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:visibility="visible"
             android:src="@drawable/thor"/>
         <TextView
-            android:id="@+id/frr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawablePadding="16dp"
@@ -28,7 +26,6 @@
             android:textSize="26dp"
             android:text="@string/thor_movie"
             android:lines="2"
-            android:visibility="visible"
             android:textAlignment="viewStart"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,7 +40,6 @@
                 android:drawablePadding="12dp"
                 android:paddingHorizontal="2dp"
                 android:textSize="20dp"
-                android:visibility="visible"
                 android:text="Детали  \u00B7 "/>
             <TextView
                 android:id="@+id/thorCommentView"
@@ -52,9 +48,8 @@
                 android:drawablePadding="8dp"
                 android:paddingHorizontal="2dp"
                 android:textSize="15dp"
-                android:visibility="visible"
                 android:textColor="@color/grey"
-                android:text="Нет комментариев"/>
+                android:text="@string/no_comments"/>
             <ImageView
                 android:id="@+id/thorFavourite"
                 android:layout_width="wrap_content"
@@ -62,14 +57,12 @@
                 android:adjustViewBounds="true"
                 android:paddingVertical="2dp"
                 android:paddingHorizontal="20dp"
-                android:visibility="visible"
                 android:src="@drawable/not_checked_favourite_icon"/>
             <ImageView
                 android:id="@+id/thorShare"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:adjustViewBounds="true"
-                android:visibility="visible"
                 android:src="@drawable/share_icon"/>
         </LinearLayout>
 
@@ -108,16 +101,15 @@
                 android:drawablePadding="12dp"
                 android:paddingHorizontal="2dp"
                 android:textSize="20dp"
-                android:visibility="visible"
                 android:text="Детали  \u00B7 "/>
             <TextView
+                android:id="@+id/youngmanCommentView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawablePadding="8dp"
                 android:paddingHorizontal="2dp"
-                android:textSize="18dp"
-                android:visibility="visible"
-                android:text="комментарий"/>
+                android:textSize="15dp"
+                android:text="@string/no_comments"/>
             <ImageView
                 android:id="@+id/youngmanFavourite"
                 android:layout_width="wrap_content"
@@ -125,13 +117,12 @@
                 android:adjustViewBounds="true"
                 android:paddingVertical="2dp"
                 android:paddingHorizontal="20dp"
-                android:visibility="visible"
-                android:src="@drawable/not_checked_favourite_icon"/>
+                 android:src="@drawable/not_checked_favourite_icon"/>
             <ImageView
+                android:id="@+id/youngmanShare"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:adjustViewBounds="true"
-                android:visibility="visible"
                 android:src="@drawable/share_icon"/>
         </LinearLayout>
 
@@ -160,7 +151,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:orientation="horizontal">
             <TextView
@@ -171,29 +161,28 @@
                 android:drawablePadding="12dp"
                 android:paddingHorizontal="2dp"
                 android:textSize="20dp"
-                android:visibility="visible"
                 android:text="Детали  \u00B7 "/>
             <TextView
+                android:id="@+id/minionsCommentView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawablePadding="8dp"
                 android:paddingHorizontal="2dp"
-                android:textSize="18dp"
-                android:visibility="visible"
-                android:text="комментарий"/>
+                android:textSize="15dp"
+                android:text="@string/no_comments"/>
             <ImageView
+                android:id="@+id/minionsFavourite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:paddingVertical="2dp"
                 android:paddingHorizontal="20dp"
-                android:visibility="visible"
                 android:src="@drawable/not_checked_favourite_icon"/>
             <ImageView
+                android:id="@+id/minionsShare"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:adjustViewBounds="true"
-                android:visibility="visible"
                 android:src="@drawable/share_icon"/>
         </LinearLayout>
 
@@ -222,7 +211,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:orientation="horizontal">
             <TextView
@@ -233,29 +221,28 @@
                 android:drawablePadding="12dp"
                 android:paddingHorizontal="2dp"
                 android:textSize="20dp"
-                android:visibility="visible"
                 android:text="Детали  \u00B7 "/>
             <TextView
+                android:id="@+id/doctorStrangeCommentView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawablePadding="8dp"
                 android:paddingHorizontal="2dp"
-                android:textSize="18dp"
-                android:visibility="visible"
-                android:text="комментарий"/>
+                android:textSize="15dp"
+                android:text="@string/no_comments"/>
             <ImageView
+                android:id="@+id/doctorStrangeFavourite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:paddingVertical="2dp"
                 android:paddingHorizontal="20dp"
-                android:visibility="visible"
                 android:src="@drawable/not_checked_favourite_icon"/>
             <ImageView
+                android:id="@+id/doctorStrangeShare"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:adjustViewBounds="true"
-                android:visibility="visible"
                 android:src="@drawable/share_icon"/>
         </LinearLayout>
 
@@ -284,7 +271,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:orientation="horizontal">
             <TextView
@@ -295,29 +281,28 @@
                 android:drawablePadding="12dp"
                 android:paddingHorizontal="2dp"
                 android:textSize="20dp"
-                android:visibility="visible"
                 android:text="Детали  \u00B7 "/>
             <TextView
+                android:id="@+id/pawsOfFuryCommentView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawablePadding="8dp"
                 android:paddingHorizontal="2dp"
-                android:textSize="18dp"
-                android:visibility="visible"
-                android:text="комментарий"/>
+                android:textSize="15dp"
+                android:text="@string/no_comments"/>
             <ImageView
+                android:id="@+id/pawsOfFuryFavourite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:paddingVertical="2dp"
                 android:paddingHorizontal="20dp"
-                android:visibility="visible"
                 android:src="@drawable/not_checked_favourite_icon"/>
             <ImageView
+                android:id="@+id/pawsOfFuryShare"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:adjustViewBounds="true"
-                android:visibility="visible"
                 android:src="@drawable/share_icon"/>
         </LinearLayout>
 
